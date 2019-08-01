@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# remove for gh-pages
+# /build
 
 # misc
 .DS_Store
