@@ -1,18 +1,84 @@
 .App {
-  background-color: #282c34;
-  min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: white;
-  padding: 2rem;
+  padding-left: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 10vh 80vh 10vh;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.vcenter {
+  align-items: flex-start;
+}
+
+.header {
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  grid-row: 2 / 3;
+  margin: 0 auto;
+  min-width: 400px;
+  width: 70%;
+  overflow: auto;
+}
+
+.tagline {
+  grid-row: 3 / 4;
+  display: flex;
+  align-items: center;
+}
+
+.tagline p {
+  margin: 0;
 }
 
 .alien-logo {
   height: 50px;
   pointer-events: none;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  cursor: pointer;
+  font-weight: 200;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.title:hover {
+  color: #459485;
+}
+
+.card {
+  height: 1px;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.card.open {
+  height: auto;
+  overflow: auto;
+}
+
+.tag {
+  font-size: 0.8em;
+  border: 1px solid black;
+  margin-right: 5px;
+  padding: 0.25em;
+  border-radius: 10px;
 }
 
 .noselect {
@@ -21,28 +87,5 @@
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-}
-
-.title {
-  cursor: pointer;
-}
-
-.title:hover {
-  color: #61dafb;
-}
-
-.card {
-  width: 50%;
-  border: 1px solid white;
-  height: 1px;
-  overflow: hidden;
-  transition: height 0.5s ease-in;
-  padding: 0 2rem;
-}
-
-.card.open {
-  height: 200px;
-  overflow: auto;
+  user-select: none; /* Non-prefixed version, currently                                supported by Chrome and Opera */
 }
