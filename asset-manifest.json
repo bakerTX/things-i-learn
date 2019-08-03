@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/things-i-learn/static/css/main.6c803fc4.chunk.css",
-    "main.js": "/things-i-learn/static/js/main.d4c22257.chunk.js",
-    "main.js.map": "/things-i-learn/static/js/main.d4c22257.chunk.js.map",
+    "main.css": "/things-i-learn/static/css/main.24445ddf.chunk.css",
+    "main.js": "/things-i-learn/static/js/main.fbcc0b44.chunk.js",
+    "main.js.map": "/things-i-learn/static/js/main.fbcc0b44.chunk.js.map",
     "runtime~main.js": "/things-i-learn/static/js/runtime~main.6a6ff6aa.js",
     "runtime~main.js.map": "/things-i-learn/static/js/runtime~main.6a6ff6aa.js.map",
     "static/js/2.21228869.chunk.js": "/things-i-learn/static/js/2.21228869.chunk.js",
     "static/js/2.21228869.chunk.js.map": "/things-i-learn/static/js/2.21228869.chunk.js.map",
     "index.html": "/things-i-learn/index.html",
-    "precache-manifest.ca6a065cf5e8dc499a40231dcb2428a9.js": "/things-i-learn/precache-manifest.ca6a065cf5e8dc499a40231dcb2428a9.js",
+    "precache-manifest.9ff48b6d250cc60837a40df50b986114.js": "/things-i-learn/precache-manifest.9ff48b6d250cc60837a40df50b986114.js",
     "service-worker.js": "/things-i-learn/service-worker.js",
-    "static/css/main.6c803fc4.chunk.css.map": "/things-i-learn/static/css/main.6c803fc4.chunk.css.map"
+    "static/css/main.24445ddf.chunk.css.map": "/things-i-learn/static/css/main.24445ddf.chunk.css.map"
   }
 }
