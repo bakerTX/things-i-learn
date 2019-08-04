@@ -19,7 +19,7 @@ function App() {
       </div>
       <div className="tagline">
         <p>
-          Documenting my journey as a web developer, one little lesson at a time
+          Documenting my journey as a web developer, one little lesson at a time.
         </p>
       </div>
     </div>

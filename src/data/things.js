@@ -2,6 +2,18 @@ import React from "react";
 
 const things = [
   {
+    title: 'CSS grid - bare minimum',
+    tags: ['css', 'grid', 'layout'],
+    content: () => (
+      <>
+        <p>At the time of writing, the layout of this site is quite simple. We have 3 vertical sections: the header, content, and footer. In order for the site to look relatively consistent across many screen sizes, I wanted to define the heights of these 3 sections as a ratio out of 100: namely 10:80:10. In this sense, the header and footer will always be 10% tall, and each is always present at the top and bottom of the screen. I wanted the content section to be the one that scrolls, not the entire page itself. (this will be more apparent when there are more posts written.)</p>
+        <p>In order to achieve these ratios, I wanted to use a bare minimum amount of CSS grid. (I'm getting bored with flexbox lately, and I had fun playing <a href="https://cssgridgarden.com/">css grid garden</a> recently)</p>
+        <p>It ended up being simple enough</p>
+        <p>The parent container gets grid-template-rows: 10vh 80vh 10vh. I thought it might have been 10% 80% 10% but that didn't work and I'm not entirely sure why. Then each child gets a corresponding grid-row: "1 / 2" for the header. "2 / 3" for the content. And "3 / 4" for the footer. That's saying "this container starts at the first column, and ends at the second column." Good enough for me 🤷</p>
+      </>
+    )
+  },
+  {
     title: "Jest coverage missing files",
     content: () => (
       <>
@@ -43,7 +55,7 @@ const things = [
       </>
     ),
     tags: ["observation", "question"]
-  }
+  },
 ];
 
 export default things;

@@ -81,6 +81,10 @@
   border-radius: 10px;
 }
 
+.lesson {
+  margin-bottom: 20px;
+}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */

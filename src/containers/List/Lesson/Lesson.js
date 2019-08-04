@@ -21,7 +21,7 @@ class Lesson extends React.Component {
     const { open } = this.state;
 
     return (
-      <div>
+      <div className="lesson">
         <Title onClick={() => this.handleClick()} text={thing.title} />
         {thing.tags && thing.tags.map(tag => <Tag text={tag} />)}
         <Card className={open ? "open" : ""}>{thing.content()}</Card>
